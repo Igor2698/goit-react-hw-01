@@ -1,8 +1,8 @@
 import "./App.css";
-import { Profile } from "./Profile";
-import { FriendList } from "./FriendList";
-import userData from "../src/userData.json";
-import friends from "../src/friends.json";
+import { Profile } from "../Profile/Profile";
+import { FriendList } from "../FriendList/FriendList";
+import userData from "../userData.json";
+import friends from "../friends.json";
 
 function App() {
   return (

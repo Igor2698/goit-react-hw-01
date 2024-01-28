@@ -1,4 +1,4 @@
-import css from "../src/Profile.module.css";
+import css from "../Profile/Profile.module.css";
 
 export const Profile = ({
   name,
@@ -12,7 +12,7 @@ export const Profile = ({
       <div className={css.description}>
         <img src={image} alt={tag} className={css.avatar} />
         <p className="name">{name}</p>
-        <p className="tag">{tag}</p>
+        <p className="tag">@{tag}</p>
         <p className="location">{location}</p>
       </div>
 
