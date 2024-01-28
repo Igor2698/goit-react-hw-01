@@ -39,7 +39,6 @@
   justify-items: center;
   position: relative;
 }
-
 .statsItem:not(:last-child)::after {
   content: "";
   display: block;
